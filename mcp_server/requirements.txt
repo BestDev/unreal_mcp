@@ -1,0 +1,8 @@
+# FastMCP server dependencies
+# Verified versions from spec.md
+
+# FastMCP framework - MCP protocol support
+fastmcp>=2.0.0
+
+# HTTP client - for Unreal plugin communication
+aiohttp>=3.8.0

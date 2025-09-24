@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unreal_mcp": {
+      "command": "mcp_server_env\\Scripts\\python.exe",
+      "args": ["mcp_server/main.py"],
+      "env": {}
+    }
+  }
+}

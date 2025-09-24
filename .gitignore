@@ -1,0 +1,48 @@
+# AI 협업 폴더 제외
+.claude/
+.kb/
+
+# Python 가상환경 제외
+mcp_server_env/
+
+# 로그 파일 제외
+*.log
+log/
+logs/
+
+# nul 파일 제외
+nul
+
+# Windows 시스템 파일
+Thumbs.db
+Desktop.ini
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# 임시 파일
+*.tmp
+*.temp
+*~
+
+# IDE 설정 파일 (선택적)
+.vscode/
+.idea/
+
+# Unreal Engine 임시 파일
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
