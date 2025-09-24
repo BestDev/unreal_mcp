@@ -75,15 +75,8 @@ sequenceDiagram
 
 ```
 unreal_mcp\
-├── 📁 .kb\                                    # AI 협업 지식베이스
-│   ├── 📁 sessions\                           # 세션별 작업 기록
-│   └── 📁 environment-paths.md                # 개발 환경 경로 설정
 ├── 📁 mcp_server\                             # MCP 서버 (Python)
 │   └── 📄 main.py                             # FastMCP 기반 서버 구현
-├── 📁 mcp_server_env\                         # Python 가상환경
-│   ├── 📁 Scripts\
-│   │   └── 🐍 python.exe                     # 격리된 Python 실행환경
-│   └── 📁 Lib\site-packages\                 # FastMCP, aiohttp 등 패키지
 ├── 📁 unreal_plugin\                          # 언리얼 플러그인 소스
 │   └── 📁 UnrealMCP\                          # 플러그인 루트
 │       ├── 📄 UnrealMCP.uplugin               # 플러그인 메타데이터
@@ -99,8 +92,6 @@ unreal_mcp\
 │               ├── 📄 MCPHttpServer.cpp       # HTTP 서버 구현
 │               └── 📄 UnrealMCPEditorSubsystem.cpp # 서브시스템 구현
 ├── 📄 .mcp.json                               # Claude Code MCP 설정
-├── 📄 CLAUDE.md                               # Claude Code 협업 프로토콜
-├── 📄 COLLABORATION-RULES.md                  # AI 간 협업 규칙
 └── 📄 README.md                               # 이 파일
 ```
 
